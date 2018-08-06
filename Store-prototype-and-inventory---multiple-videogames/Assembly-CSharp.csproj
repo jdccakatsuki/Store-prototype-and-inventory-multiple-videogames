@@ -62,11 +62,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Example.cs" />
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/JOSÉ DANIEL/Documents/Store-prototype-and-inventory---multiple-videogames/Store-prototype-and-inventory-multiple-videogames/Store-prototype-and-inventory---multiple-videogames/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
+    <Compile Include="Assets\IStore.cs" />
+    <Compile Include="Assets\Item.cs" />
+    <Compile Include="Assets\Store.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/JOSÉ DANIEL/Documents/Store-prototype-and-inventory---multiple-videogames/Store-prototype-and-inventory-multiple-videogames/Store-prototype-and-inventory---multiple-videogames/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>C:/Users/JOSÉ DANIEL/Documents/Store-prototype-and-inventory---multiple-videogames/Store-prototype-and-inventory-multiple-videogames/Store-prototype-and-inventory---multiple-videogames/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
